@@ -46,7 +46,7 @@ public class Sticks {
 						} // inner for loop
 					} // outer for loop
 
-					System.out.println(count);
+					
 					if (count > 1) {
 						// find the factorial of duplicates number of elements
 						int factorial = count;
