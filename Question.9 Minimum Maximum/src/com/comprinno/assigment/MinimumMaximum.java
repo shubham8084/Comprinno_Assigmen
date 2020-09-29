@@ -23,7 +23,7 @@ public class MinimumMaximum {
 				// ArraySize A
 				int A = N;
 				// cheacking constraint 1 ≤ A ≤ 10^5 and 2 ≤ N ≤ 50000
-				if ((1 <= A && A <= 10) && (2 <= N && N <= 50000)) {
+				if ((1 <= A && A <=10000) && (2 <= N && N <= 50000)) {
 
 					// create a ArrayList of size n
 					List<Integer> Array = new ArrayList<>();
@@ -35,6 +35,7 @@ public class MinimumMaximum {
 						Array.add(ele);
 
 					} // end of for loop
+					
                   // A  simple integer varibles thats calculate the cost
 					int cost = 0;
 
